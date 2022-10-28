@@ -1,0 +1,1 @@
+document.write("<h1>script2 test<\h1>");

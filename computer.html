@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>計算機</title>
+        
+        <link rel="stylesheet" href="style.css"
+
+        .wrapper{
+            max-width:350px;
+            margin: 0 auto;
+            color: #666;
+        }
+        #header,#calc{
+            box-sizing: border-box;
+            text-align: center;
+          }
+          #header {
+            font-size: 24px;
+            padding: 1rem;
+          }
+          
+          input{
+            box-sizing: border-box;
+            width: 75%;
+            height: 3.5rem;
+            font-size: 1.6rem;
+            text-align: right;
+            padding: 0 0.75rem;
+          }
+          
+          button{
+            font-size: 18px;
+            width: 25%;
+            height: 3.5rem;
+            color: #333;
+            vertical-align: middle;
+            border-color: #fff;
+          }
+          button:hover{
+            background-color: #ddd;
+          }
+
+        <link rel="stylesheet" href="style.css"
+
+    </head>
+
+
+    <body>
+        
+   
+   <br>
+   <br>
+   <br>
+    <div class="wrapper">
+      <center>
+        <h1 id ="header">計算機</h1>
+        <div id = "calc">
+            
+            <div>
+                <input readonly id ="result" type="text" value="0">
+                <button onclick="c_click()">C</button>
+            </div>
+            <div>
+                <button onclick="num_click(this.innerHTML)" ,font-size:10px;>7</button>
+                <button onclick="num_click(this.innerHTML)">8</button>
+                <button onclick="num_click(this.innerHTML)">9</button>
+                <button onclick="ope_click(this.innerHTML)">÷</button>
+              </div>
+              <div>
+                <button onclick="num_click(this.innerHTML)">4</button>
+                <button onclick="num_click(this.innerHTML)">5</button>
+                <button onclick="num_click(this.innerHTML)">6</button>
+                <button onclick="ope_click(this.innerHTML)">×</button>
+              </div>
+              <div>
+                <button onclick="num_click(this.innerHTML)">1</button>
+                <button onclick="num_click(this.innerHTML)">2</button>
+                <button onclick="num_click(this.innerHTML)">3</button>
+                <button onclick="ope_click(this.innerHTML)">-</button>
+              </div>
+              <div>
+                <button onclick="num_click(this.innerHTML)">0</button>
+                <button onclick="num_click(this.innerHTML)">.</button>
+                <button onclick="equal_click()">=</button>
+                <button onclick="ope_click(this.innerHTML)">+</button>
+              </div>
+
+        </div>
+      </center>
+
+    </div>
+
+
+    <script src="computer.js"></script>
+
+
+
+
+
+   <br>
+   <br>
+   <br>
+   <br>
+    <center><h3><a href="index.html">回首頁</a></h3></center>
+    
+
+
+    </body>
+</html>
